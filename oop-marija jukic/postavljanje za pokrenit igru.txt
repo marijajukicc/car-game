@@ -1,0 +1,27 @@
+Za igru pokreniti potrebno je imati instaliran python najnoviju verziju kao i biblioteku pygame.
+
+Python se instalira preko njihove službene stranice.
+Install i add prilikom instalacije pythona.
+
+Nakon toga ako se python u  powershellu  ne može pokreniti treba provjeriti je li python
+dodan u path te ako nije dodati ga
+C:\users\name>python -> otprilike kako izgleda pokretanje pythona
+Ako nismo uspijeli pokreniti python onda,
+Potražiti u računalu :
+Systems and Security->System->Advanced system settings-> environment variables->path u donjoj tablici->
+->kliknit na njega->edit->treba sadrzavat i python39 i python scripts(dodati ručno)
+
+Dodati u path nove pathove do python39 i python39/script
+put do toga ce izgledat nesto tipa appdata->local->programs->python->python39
+
+Nakon što smo dodali path,ponovno u powershellu probamo pokreniti python
+C:\users\name>python
+
+Ako smo uspijeli očistimo powershell ekran i započnemo instalaciju pygame
+C:\users\name>pip install pygame
+
+Ako nije posljednja verzija pygamea instalirana, treba se upgradeat na najnoviju pomoću komandi!
+
+
+Pokretanje igre također radi ako se instalira python,vs code i unutar njega python debugger i
+unutar njega se pokrene program.
